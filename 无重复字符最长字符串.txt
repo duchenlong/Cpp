@@ -1,0 +1,42 @@
+给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
+
+示例 1:
+
+输入: "abcabcbb"
+输出: 3 
+解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
+示例 2:
+
+输入: "bbbbb"
+输出: 1
+解释: 因为无重复字符的最长子串是 "b"，所以其长度为 1。
+示例 3:
+
+输入: "pwwkew"
+输出: 3
+解释: 因为无重复字符的最长子串是 "wke"，所以其长度为 3。
+     请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
+
+#define MAX(a,b) ((a)>(b)?(a):(b))
+int lengthOfLongestSubstring(char * s){
+    int left = 0;
+    int len = strlen(s);
+    int right = 0;
+    int visit[200] = {0};//判断该字符是否出现过
+    visit[s[left]] = 1;
+    int ans = 0;
+
+    while(right < len)
+    {
+        ans = MAX(ans,right - left + 1);
+
+        right++;
+        //如果下一个字符之前出现过
+        while(visit[s[right]])
+            visit[s[left++]] = 0;
+        
+        visit[s[right]] = 1;
+    }
+
+    return ans;
+}
