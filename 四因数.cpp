@@ -4,17 +4,26 @@ using namespace std;
 
 int sumFourDivisors(vector<int>& nums) {
         int ans = 0;
-        for(int i = 0; i < nums.size(); i++)
+        for(auto eoch : nums)
         {
-        	int eoch = nums[i];
             int ret = 0;//统计当前因子之和
             int num = 0;//因子数量
-            for(int j = 1; j < eoch/2; j++)
+            for(int j = 1; j <= sqrt(eoch); j++)
             {
-                if(eoch % j == 0)
+                int count = eoch / j;
+                if( eoch % j == 0)
                 {
-                    ret += eoch/j + j;
-                    num += 2;
+                    if(count == j)
+                    {
+                        ret += eoch;
+                        num += 1;
+                    }
+                    else
+                    {
+                        ret += eoch/j + j;
+                        num += 2;
+                    }
+                    
                 }
                 if(num > 4)
                     break;
