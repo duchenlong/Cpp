@@ -1,0 +1,13 @@
+﻿生成启动时间为 2020/5/15 21:58:08。
+     1>项目“E:\daima\git\Cpp\priority_queue\priority_queue\priority_queue.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\VS2013\install\VC\bin\CL.exe /c /I"E:\VLD\install\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt text.cpp
+         text.cpp
+       Link:
+         E:\VS2013\install\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\daima\git\Cpp\priority_queue\Debug\priority_queue.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\VLD\install\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\daima\git\Cpp\priority_queue\Debug\priority_queue.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\daima\git\Cpp\priority_queue\Debug\priority_queue.lib" /MACHINE:X86 Debug\text.obj
+         priority_queue.vcxproj -> E:\daima\git\Cpp\priority_queue\Debug\priority_queue.exe
+     1>已完成生成项目“E:\daima\git\Cpp\priority_queue\priority_queue\priority_queue.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.62
