@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "并查集", "并查集\并查集.vcxproj", "{F07206FE-94EA-4722-8FF3-AE52F6E9B831}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F07206FE-94EA-4722-8FF3-AE52F6E9B831}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F07206FE-94EA-4722-8FF3-AE52F6E9B831}.Debug|Win32.Build.0 = Debug|Win32
+		{F07206FE-94EA-4722-8FF3-AE52F6E9B831}.Release|Win32.ActiveCfg = Release|Win32
+		{F07206FE-94EA-4722-8FF3-AE52F6E9B831}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
