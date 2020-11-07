@@ -1,0 +1,16 @@
+INPUT(
+./debug/card.o
+./debug/control.o
+./debug/init.o
+./debug/main.o
+./debug/mainwindow.o
+./debug/mypcap.o
+./debug/netpack.o
+./debug/tcp.o
+./debug/udp.o
+./debug/moc_card.o
+./debug/moc_mainwindow.o
+./debug/moc_netpack.o
+./debug/moc_tcp.o
+./debug/moc_udp.o
+);

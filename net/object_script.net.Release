@@ -1,0 +1,16 @@
+INPUT(
+./release/card.o
+./release/control.o
+./release/init.o
+./release/main.o
+./release/mainwindow.o
+./release/mypcap.o
+./release/netpack.o
+./release/tcp.o
+./release/udp.o
+./release/moc_card.o
+./release/moc_mainwindow.o
+./release/moc_netpack.o
+./release/moc_tcp.o
+./release/moc_udp.o
+);
