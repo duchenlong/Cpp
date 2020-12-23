@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wordAnalyse", "wordAnalyse\wordAnalyse.vcxproj", "{D7321C64-BF6F-4D3D-8E1C-9A84C5D970FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7321C64-BF6F-4D3D-8E1C-9A84C5D970FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D7321C64-BF6F-4D3D-8E1C-9A84C5D970FC}.Debug|Win32.Build.0 = Debug|Win32
+		{D7321C64-BF6F-4D3D-8E1C-9A84C5D970FC}.Release|Win32.ActiveCfg = Release|Win32
+		{D7321C64-BF6F-4D3D-8E1C-9A84C5D970FC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
